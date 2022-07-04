@@ -1,0 +1,20 @@
+{
+  "dir": "C:\\Users\\yujing\\Desktop\\OpenVPN\\",
+  "showLogFindFile": false,
+  "showLogNoFindOld": false,
+  "showLogChange": true,
+  "showLogSaveFile": true,
+  "FileReps": [
+    {
+      "fileName": "**/vpn??.ovpn",
+      "reps": [
+        {
+          "old": [
+            "remote aaa.com 994 #服务端IP及端口号"
+          ],
+          "rep": "remote bbb.com 994 #服务端IP及端口号"
+        }
+      ]
+    }
+  ]
+}
