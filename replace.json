@@ -1,18 +1,43 @@
 {
-  "dir": "C:\\Users\\yujing\\Desktop\\OpenVPN\\",
+  "dir": "/",
   "showLogFindFile": false,
   "showLogNoFindOld": false,
   "showLogChange": true,
   "showLogSaveFile": true,
+  "showLogIgnores": true,
+  "ignores": [
+    "/test1/",
+    "/test2/build.gradle"
+  ],
   "FileReps": [
     {
-      "fileName": "**/vpn??.ovpn",
+      "fileName": "**/*文件名1",
       "reps": [
         {
           "old": [
-            "remote aaa.com 994 #服务端IP及端口号"
+            "旧的字符串1",
+            "旧的字符串2"
           ],
-          "rep": "remote bbb.com 994 #服务端IP及端口号"
+          "rep": "新的字符串1"
+        }
+      ]
+    },
+    {
+      "fileName": "文件名2",
+      "reps": [
+        {
+          "old": [
+            "旧的字符串1",
+            "旧的字符串2"
+          ],
+          "rep": "新的字符串1"
+        },
+        {
+          "old": [
+            "旧的字符串3",
+            "旧的字符串4"
+          ],
+          "rep": "新的字符串2"
         }
       ]
     }

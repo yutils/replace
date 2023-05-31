@@ -192,6 +192,7 @@ public class YFileUtil {
                 }
                 inputStream.close();
                 outputStream.close();
+                file.setLastModified(oldFile.lastModified());
             }
         }
     }

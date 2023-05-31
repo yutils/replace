@@ -20,8 +20,8 @@ import java.io.File;
 call java -jar -Dfile.encoding=utf-8 replace.jar json文件
  */
 public class Main {
-  public static void main(String... args) {
-    if (args.length > 0) ChangeFile.configureFile = new File(args[0]);
-    ChangeFile.change();
-  }
+    public static void main(String... args) {
+        if (args.length > 0) ChangeFile.configureFile = new File(args[0]);
+        ChangeFile.change();
+    }
 }

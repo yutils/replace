@@ -8,7 +8,10 @@ import java.util.List;
  * 文件替换详情信息
  */
 public class FileRep {
+
     String fileName;
+
+    //替换列表
     List<Rep> reps =new ArrayList<>();
 
     public FileRep() {
